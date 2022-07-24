@@ -1,0 +1,60 @@
+/* RESPONSIVENESS AT 750px */
+@media (max-width: 47.5em) {
+    .no-flexbox-gap .cta-icon {
+        margin-right: 1.2rem;
+    }
+    .no-flexbox-gap .less-price {
+        margin-right: 2.4rem;
+    }
+}
+
+/* RESPONSIVENESS AT 704px */
+@media (max-width: 44em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+/* RESPONSIVENESS AT 550px */
+@media (max-width: 34.4em) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .container--01, .container--02 {
+        width: 38.8rem;
+    }
+    .product-img {
+        background-image: url(images/image-product-mobile.jpg);
+        background-size: cover;
+        height: 30.8rem;
+    }
+    .main-heading {
+        font-size: 4.2rem;
+    }
+    .cta {
+        padding: 2.4rem 14rem;
+    }
+}
+
+/* RESPONSIVENESS AT 380px */
+@media (max-width: 24em) {
+    html {
+        font-size: 43.75%;
+    }
+}
+
+/* RESPONSIVENESS AT 300px */
+@media (max-width: 18.75em) {
+    html {
+        font-size: 37.5%;
+    }
+}
+
+/* RESPONSIVENESS AT 280px */
+@media (max-width: 17.5em) {
+    html {
+        font-size: 31.25%;
+    }
+}
+
+
